@@ -1,0 +1,11 @@
+source ./envMLFlaskDep/Scripts/activate
+./envMLFlaskDep/Scripts/python.exe -m pip install --upgrade pip
+pip install numpy
+pip install matplotlib
+pip install pandas
+pip install sklearn
+pip install flask flask-ngrok
+pip install flask-ngrok
+
+python model.py
+python app.py
